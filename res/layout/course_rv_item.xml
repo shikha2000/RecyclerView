@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/idCVCOurseItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="4dp">
+
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<!--image view for displaying course image-->
+<ImageView
+    android:id="@+id/idIVCourse"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_margin="10dp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="2dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="2dp"
+    android:layout_toEndOf="@id/idIVCourse"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <!--Textview for displaying our Course Name-->
+    <TextView
+        android:id="@+id/idTVCourseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="CourseName"
+        android:textColor="@color/colorpurple_500"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!--Textview for displaying our Course Duration-->
+    <TextView
+        android:id="@+id/idTVCourseDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="Duration"
+        android:textColor="@color/colorblack" />
+
+    <!--Textview for displaying our Course Description-->
+    <TextView
+        android:id="@+id/idTVCourseDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="Description"
+        android:textColor="@color/colorblack" />
+</LinearLayout>
+
+</RelativeLayout>>
+</androidx.cardview.widget.CardView>

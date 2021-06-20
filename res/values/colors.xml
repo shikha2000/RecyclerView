@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorblack">#101010</color>
+    <color name="colorpurple_500">#9617AC</color>
+    <color name="colorAccent">#03DAC5</color>
+</resources>
